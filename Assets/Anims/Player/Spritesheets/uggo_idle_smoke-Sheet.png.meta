@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 9bc3bf8a1814f9947882968e3fe40912
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4082734688444129871
+    second: uggo_idle_smoke-Sheet_0
+  - first:
+      213: -4376403547337029423
+    second: uggo_idle_smoke-Sheet_1
+  - first:
+      213: 3222805435015501672
+    second: uggo_idle_smoke-Sheet_2
+  - first:
+      213: 1450380867011625392
+    second: uggo_idle_smoke-Sheet_3
+  - first:
+      213: -1600659272768664289
+    second: uggo_idle_smoke-Sheet_4
+  - first:
+      213: -1340118861710887782
+    second: uggo_idle_smoke-Sheet_5
+  - first:
+      213: -3086576056762383804
+    second: uggo_idle_smoke-Sheet_10
+  - first:
+      213: 3778886550682001073
+    second: uggo_idle_smoke-Sheet_8
+  - first:
+      213: -1412421212589111655
+    second: uggo_idle_smoke-Sheet_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 62
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42a0e06199c8a830800000000000000
+      internalID: 4082734688444129871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8873f2924e343c0800000000000000
+      internalID: -4376403547337029423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8671c4ec774b9bc20800000000000000
+      internalID: 3222805435015501672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1404fc6b9c02410800000000000000
+      internalID: 1450380867011625392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d40304fd059c9e0800000000000000
+      internalID: -1600659272768664289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.3888889, y: 0.40666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94fbeadef0f66de0800000000000000
+      internalID: -1340118861710887782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442c3740e674a25d0800000000000000
+      internalID: -3086576056762383804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1
+        width: 79
+        height: 98
+      alignment: 9
+      pivot: {x: 0.2658228, y: 0.3112245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bed6e3eb4d417430800000000000000
+      internalID: 3778886550682001073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uggo_idle_smoke-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1
+        width: 70
+        height: 98
+      alignment: 9
+      pivot: {x: 0.3, y: 0.3112245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9964666f362166ce0800000000000000
+      internalID: -1412421212589111655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
