@@ -156,6 +156,7 @@ public class PlayerController : MonoBehaviour
 
     void axeSwing ()
     {
+        Vector2 kirvesVektori = getAttackVektori();
         soundMngr.playSwing();
         playerAnim.SetTrigger("attack");
         attacking = true;
@@ -178,20 +179,7 @@ public class PlayerController : MonoBehaviour
 
     public void shootGun()
     {
-        Vector2 pysyVektori = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (pysyVektori.x == 0 && pysyVektori.y == 0)
-        {
-            if (XorY)
-            {
-                playerAnim.SetFloat("LastMoveY", 0f);
-                pysyVektori.x = lastMovement.x;
-            }
-            else 
-            {
-                playerAnim.SetFloat("LastMoveX", 0f);
-                pysyVektori.y = lastMovement.y;
-            }
-        }
+        Vector2 pysyVektori = getAttackVektori();
         playerAnim.SetTrigger("Shoot"); //nä kaikki rojut vois varmaa laittaa tonne metodiinki
         pyssyAnim.SetTrigger("Shoot");
         Debug.Log(pysyVektori);
@@ -229,6 +217,25 @@ public class PlayerController : MonoBehaviour
         frozen = onko;
     }
 
+    public Vector2 getAttackVektori()
+    {
+        Vector2 pysyVektori = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        if (pysyVektori.x == 0 && pysyVektori.y == 0)
+        {
+            if (XorY)
+            {
+                playerAnim.SetFloat("LastMoveY", 0f);
+                pysyVektori.x = lastMovement.x;
+            }
+            else
+            {
+                playerAnim.SetFloat("LastMoveX", 0f);
+                pysyVektori.y = lastMovement.y;
+            }
+        }
+        return pysyVektori;
+
+    }
     public void dodgeRoll()
     {
         playerAnim.SetTrigger("Dodge");
