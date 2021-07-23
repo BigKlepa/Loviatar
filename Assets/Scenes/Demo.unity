@@ -13686,6 +13686,25 @@ MonoBehaviour:
   maxX: 10
   minY: -1
   maxY: 5
+--- !u!95 &805051690
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805051688}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 65f8f98da543c544ca115ca81a92e3cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!61 &805051692
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13696,15 +13715,15 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -3.475137, y: 0.014241219}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1.18, y: 0.85}
+    newSize: {x: 1.18, y: 0.85}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -24265,6 +24284,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: ketu_3
       objectReference: {fileID: 0}
+    - target: {fileID: 5404352195096270777, guid: a5e05d5bee0d0dd4ba5e68a4be92017e,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404352195096270777, guid: a5e05d5bee0d0dd4ba5e68a4be92017e,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404352195096270777, guid: a5e05d5bee0d0dd4ba5e68a4be92017e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5436721541803813425, guid: e698dca35f567e44b837055453f7fb0e,
+        type: 3}
     - target: {fileID: 5404352195096270777, guid: a5e05d5bee0d0dd4ba5e68a4be92017e,
         type: 3}
       propertyPath: m_SortingOrder
