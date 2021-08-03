@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PaussiMenu : MonoBehaviour
+public class PauseDemo : MonoBehaviour
 {
-    
-    public static bool GamePaused = false;
+    public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
 
-    void Update()
+
+    void Update ()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))       //esc-nappula = pausemenu
         {
-            if (GamePaused)
+            if (GameIsPaused)
             {
                 Resume();
             } else
@@ -23,18 +23,20 @@ public class PaussiMenu : MonoBehaviour
         }
     }
 
-    public void Resume()
+    //pois pauselta
+    public void Resume () 
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
-        GamePaused = false;
+        GameIsPaused = false;
     }
 
-    void Pause()
+    //pauselle
+    void Pause () 
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        GamePaused = true;
+        GameIsPaused = true;
     }
 
     public void LoadMenu()
@@ -42,5 +44,10 @@ public class PaussiMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
-}
 
+    public void LoadSettings()
+    {
+        Application.Quit();
+    }
+
+}
