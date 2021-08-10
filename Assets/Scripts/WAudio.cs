@@ -8,7 +8,7 @@ public class WAudio : MonoBehaviour
     
 	float moveSpeed = 3.0f;
 	public AudioSource[] audioTaulukko;
-	private AudioSource step;
+	public AudioSource step;
 	private AudioSource bang;
 	private AudioSource woosh;
 	bool isMoving;
